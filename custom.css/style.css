@@ -1,0 +1,158 @@
+/* RESET CSS*/
+    /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* RESET CSS ENDING*/
+
+/*  BEBASENEU REGULAR font */
+
+    @font-face {
+        font-family: Quicksand_Dash   src: url('/assets/fonts/Quicksand_Dash-webfont.eot');
+        src: url('/assets/fonts/Quicksand_Dash-webfont.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/Quicksand_Dash-webfont.woff') format('woff'),
+             url('/assets/fonts/Quicksand_Dash-webfont.ttf') format('truetype'),
+             url('/assets/fonts/Quicksand_Dash-webfont.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: Quicksand-Bold   src: url('/assets/fonts/Quicksand-Bold-webfont.eot');
+        src: url('/assets/fonts/Quicksand-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/Quicksand-Bold-webfont.woff') format('woff'),
+             url('/assets/fonts/Quicksand-Bold-webfont.ttf') format('truetype'),
+             url('/assets/fonts/Quicksand-Bold-webfont.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: Quicksand-BoldItalic   src: url('/assets/fonts/Quicksand-BoldItalic-webfont.eot');
+        src: url('/assets/fonts/Quicksand-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/Quicksand-BoldItalic-webfont.woff') format('woff'),
+             url('/assets/fonts/Quicksand-BoldItalic-webfont.ttf') format('truetype'),
+             url('/assets/fonts/Quicksand-BoldItalic-webfont.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: Quicksand-Italic   src: url('/assets/fonts/Quicksand-Italic-webfont.eot');
+        src: url('/assets/fonts/Quicksand-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/Quicksand-Italic-webfont.woff') format('woff'),
+             url('/assets/fonts/Quicksand-Italic-webfont.ttf') format('truetype'),
+             url('/assets/fonts/Quicksand-Italic-webfont.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: Quicksand-Light   src: url('/assets/fonts/Quicksand-Light-webfont.eot');
+        src: url('/assets/fonts/Quicksand-Light-webfont.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/Quicksand-Light-webfont.woff') format('woff'),
+             url('/assets/fonts/Quicksand-Light-webfont.ttf') format('truetype'),
+             url('/assets/fonts/Quicksand-Light-webfont.svg') format('svg');
+    }
+
+/*  BEBASENEU REGULAR font-ending */
+
+/*  UTILITY CLASSES */
+    .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+/*  END UTILITY CLASSES */
+
+/*   HEADER   */
+
+header#header {
+    background: #ff5959;
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 85px;
+}
+
+div#projex_logo_wrap {
+    display: inline-block;
+    position: relative;
+}
+
+nav#navigation_bar_wrap {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 40%;
+    margin: auto;
+    right: 13%;
+}
+
+a#navigation_cell {
+    padding: 0 15px 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+/*  END HEADER   */
+
+
+
+
+
+
+
+
+
+
+
