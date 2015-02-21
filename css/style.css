@@ -53,7 +53,8 @@ table {
 /*  BEBASENEU REGULAR font */
 
     @font-face {
-        font-family: Quicksand_Dash   src: url('/assets/fonts/Quicksand_Dash-webfont.eot');
+        font-family: 'Quicksand_Dash';
+        src: url('/assets/fonts/Quicksand_Dash-webfont.eot');
         src: url('/assets/fonts/Quicksand_Dash-webfont.eot?#iefix') format('embedded-opentype'),
              url('/assets/fonts/Quicksand_Dash-webfont.woff') format('woff'),
              url('/assets/fonts/Quicksand_Dash-webfont.ttf') format('truetype'),
@@ -61,7 +62,8 @@ table {
     }
 
     @font-face {
-        font-family: Quicksand-Bold   src: url('/assets/fonts/Quicksand-Bold-webfont.eot');
+        font-family: 'Quicksand-Bold';   
+        src: url('/assets/fonts/Quicksand-Bold-webfont.eot');
         src: url('/assets/fonts/Quicksand-Bold-webfont.eot?#iefix') format('embedded-opentype'),
              url('/assets/fonts/Quicksand-Bold-webfont.woff') format('woff'),
              url('/assets/fonts/Quicksand-Bold-webfont.ttf') format('truetype'),
@@ -69,7 +71,8 @@ table {
     }
 
     @font-face {
-        font-family: Quicksand-BoldItalic   src: url('/assets/fonts/Quicksand-BoldItalic-webfont.eot');
+        font-family: 'Quicksand-BoldItalic';
+        src: url('/assets/fonts/Quicksand-BoldItalic-webfont.eot');
         src: url('/assets/fonts/Quicksand-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
              url('/assets/fonts/Quicksand-BoldItalic-webfont.woff') format('woff'),
              url('/assets/fonts/Quicksand-BoldItalic-webfont.ttf') format('truetype'),
@@ -77,7 +80,8 @@ table {
     }
 
     @font-face {
-        font-family: Quicksand-Italic   src: url('/assets/fonts/Quicksand-Italic-webfont.eot');
+        font-family: 'Quicksand-Italic';
+        src: url('/assets/fonts/Quicksand-Italic-webfont.eot');
         src: url('/assets/fonts/Quicksand-Italic-webfont.eot?#iefix') format('embedded-opentype'),
              url('/assets/fonts/Quicksand-Italic-webfont.woff') format('woff'),
              url('/assets/fonts/Quicksand-Italic-webfont.ttf') format('truetype'),
@@ -85,7 +89,8 @@ table {
     }
 
     @font-face {
-        font-family: Quicksand-Light   src: url('/assets/fonts/Quicksand-Light-webfont.eot');
+        font-family: 'Quicksand-Light';
+        src: url('/assets/fonts/Quicksand-Light-webfont.eot');
         src: url('/assets/fonts/Quicksand-Light-webfont.eot?#iefix') format('embedded-opentype'),
              url('/assets/fonts/Quicksand-Light-webfont.woff') format('woff'),
              url('/assets/fonts/Quicksand-Light-webfont.ttf') format('truetype'),
@@ -109,6 +114,10 @@ table {
 .clearfix { display: block; }
 /* close commented backslash hack */
 /*  END UTILITY CLASSES */
+
+body, html{
+    font-family: 'Quicksand_Dash';
+}
 
 /*   HEADER   */
 
