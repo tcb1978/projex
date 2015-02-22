@@ -115,6 +115,10 @@ table {
 /* close commented backslash hack */
 /*  END UTILITY CLASSES */
 
+body {
+    background: #ebebeb;
+}
+
 body, html{
     font-family: 'Quicksand_Dash';
 }
@@ -226,7 +230,7 @@ button.section1-button-blank {
 
 /*  SECTION 1   END   */
 
-/*   SECTION 2 BEGIN   */
+/*   SECTION 2 BEGIN Our Services  */
 
 section#section2_wrap {
     
@@ -293,10 +297,11 @@ section#services {
 p.section2-h2-box-paragraph {
     font-size: 12px;
     text-align: center;
+    width: 216px;
 }
 
  .seo-mag{
-    background: url('/images/html-css-lightbulb.png') no-repeat 0px 0px transparent;
+    background: url('/images/seo-mag.png') no-repeat 0px 0px transparent;
     display: inline-block;
     position: relative;
     height: 129px;
@@ -305,7 +310,7 @@ p.section2-h2-box-paragraph {
 }
 
  .design-pencil{
-    background: url('/images/html-css-lightbulb.png') no-repeat 0px 0px transparent;
+    background: url('/images/design-pencil.png') no-repeat 0px 0px transparent;
     display: inline-block;
     position: relative;
     height: 129px;
@@ -316,6 +321,241 @@ p.section2-h2-box-paragraph {
 
 
 /*   SECTION 2 END   */
+
+/*   SECTION 3 BEGIN Our Portfolio   */
+
+section#section3_wrap {
+    position: relative;
+    display: block;
+    height: 820px;
+    background: #FF5959;
+    top: -3px;
+}
+
+h2.section3-h2 {
+    font-size: 30px;
+    width: 194px;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 5px;
+    color: #fff;
+}
+
+#section3_header_decoration {
+    background: url('/images/section3-header-decoration.png') no-repeat 0px 0px transparent;
+    display: block;
+    position: relative;
+    height: 12px;
+}
+
+div#thumbnail_gallery {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 1165px;
+    top: 100px;
+}
+
+#section3-lrg-thumbnail-1 {
+    background: url('/images/section3-lrg-thumbnail-1.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    height: 288px;
+    width: 572px;
+    padding-bottom: 10px;
+}
+
+#section3-lrg-thumbnail-2 {
+    background: url('/images/section3-lrg-thumbnail-2.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    height: 288px;
+    width: 570px;
+    float: right;
+    padding-bottom: 10px;
+}
+
+#section3-lrg-thumbnail-2:hover {
+    background: url('/images/section3-lrg-thumbnail-2_hover.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    height: 288px;
+    width: 570px;
+    float: right;
+    padding-bottom: 10px;
+}
+
+#section3-sm-thumbnail-1 {
+    background: url('/images/section3-sm-thumbnail-1.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 287px;    
+    padding-right: 26px;
+}
+
+#section3-sm-thumbnail-2 {
+    background: url('/images/section3-sm-thumbnail-2.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 287px;
+    padding-right: 23px;
+}
+
+#section3-sm-thumbnail-3 {
+    background: url('/images/section3-sm-thumbnail-3.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 287px;
+    padding-right: 21px;
+}
+
+#section3-sm-thumbnail-4 {
+    background: url('/images/section3-sm-thumbnail-4.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 287px;
+}
+
+/*   SECTION 3 END   */
+
+/*   SECTION 4 BEGIN   */
+
+section#section4_wrap {
+    height: 5px;
+    background: #E8E8E8;
+}
+
+h2.section4-h2 {
+    font-size: 30px;
+    width: 318px;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 5px;
+}
+
+div#ceos_founders {
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+div#team_member_profile {
+    height: 400px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    margin: 0px 24px;
+}
+
+div#profile_bust1 {
+    background: url('') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 165px;
+    border: 2px solid red;
+    border-radius: 150px;
+    margin-bottom: 30px;
+    left: 4px;
+}
+
+div#profile_bust2 {
+    background: url('') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 165px;
+    border: 2px solid red;
+    border-radius: 150px;
+    margin-bottom: 30px;
+    left: 4px;
+}
+
+div#profile_bust3 {
+    background: url('') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 165px;
+    border: 2px solid red;
+    border-radius: 150px;
+    margin-bottom: 30px;
+    left: 4px;
+}
+
+div#profile_bust4 {
+    background: url('') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 165px;
+    border: 2px solid red;
+    border-radius: 150px;
+    margin-bottom: 30px;
+    left: 4px;
+}
+
+h1#team_member_name {
+    font-size: 20px;
+}
+
+h3#member_title {
+    margin-bottom: 20px;
+}
+
+div#social_media {
+    width: 200px;
+    padding-top: 5px;
+}
+
+#social_media_buttons.twitter_handle {
+    background: url('/images/social-media.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;   
+}
+
+#social_media_buttons.pintrest {
+    background: url('/images/social-media.png') no-repeat -35px 0px  transparent;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;   
+}
+
+#social_media_buttons.facebook {
+    background: url('/images/social-media.png') no-repeat -71px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;   
+}
+
+#social_media_buttons.google {
+    background: url('/images/social-media.png') no-repeat -105px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;   
+}
+
+#social_media_buttons.linked-in {
+    background: url('/images/social-media.png') no-repeat -140px 0px transparent;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;   
+}
+
+/*   SECTION 4 END   */
 
 
 
