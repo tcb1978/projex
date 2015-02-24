@@ -461,7 +461,7 @@ div#team_member_profile {
 }
 
 div#profile_bust1 {
-    background: url('') no-repeat 0px 0px transparent;
+    background: url('/images/pee-wee-herman.jpg') no-repeat -87px 0px transparent;
     display: inline-block;
     position: relative;
     width: 170px;
@@ -473,7 +473,7 @@ div#profile_bust1 {
 }
 
 div#profile_bust2 {
-    background: url('') no-repeat 0px 0px transparent;
+    background: url('/images/herman.jpg') no-repeat 0px -20px transparent;
     display: inline-block;
     position: relative;
     width: 170px;
@@ -485,7 +485,7 @@ div#profile_bust2 {
 }
 
 div#profile_bust3 {
-    background: url('') no-repeat 0px 0px transparent;
+    background: url('/images/diamond-dave.png') no-repeat 0px 0px transparent;
     display: inline-block;
     position: relative;
     width: 170px;
@@ -497,7 +497,7 @@ div#profile_bust3 {
 }
 
 div#profile_bust4 {
-    background: url('') no-repeat 0px 0px transparent;
+    background: url('/images/bush.jpg') no-repeat -136px 0px transparent;
     display: inline-block;
     position: relative;
     width: 170px;
@@ -600,7 +600,7 @@ div#latest_news_alert {
 div#latest_news_alert2 {
     position: relative;
     display: inline-block;
-    top: 55px;
+    top: 15px;
     margin: auto;
     width: 368px;
     padding: 0px 15px 0px 15px;
@@ -610,7 +610,7 @@ div#latest_news_alert2 {
 div#latest_news_alert3 {
     position: relative;
     display: inline-block;
-    bottom: 437px;
+    bottom: 394px;
     margin: auto;
     width: 368px;
     left: 386px;
@@ -639,6 +639,7 @@ p.alert-new-content-author {
     width: 72px;
     font-size: 12px;
     padding-top: 10px
+    bottom: 2px; 
 }
 
 p.alert-new-content-comments {
@@ -646,7 +647,7 @@ p.alert-new-content-comments {
     position: relative;
     display: inline-block;
     float: right;
-    bottom: 37px;
+    bottom: -10px;
     font-size: 12px;
     right: 70px;
 }
@@ -659,22 +660,14 @@ p.alert-new-content-comments {
     height: 18px;
 }
 
-p.alert-new-content-author {
-    width: 57px;
-    font-size: 12px;
-    left: 24px;
-    position: relative;
-    bottom: 25px;
-}
-
 div#comment_icon {
     background: url('/images/comment-icon.png') no-repeat 0px 0px transparent;
     display: inline-block;
     position: relative;
     width: 17px;
     height: 18px;
-    left: 165px;
-    bottom: 42px;
+    left: 68px;
+    bottom: -5px;
 }
 
 /*   CONTACT US   */
@@ -826,18 +819,18 @@ div#info_button_wrap {
 }
 
 footer {
-    height: 100px;
+    height: 100%;
     width: 100%;
     background: #ff5959;
 }
 
 p.copyright {
     margin: auto;
-    width: 543px;
+    width: 287px;
     font-size: 12px;
     color: #fff;
     position: relative;
-    left: 92px;
+    left: 40%;
     top: 45px;
 }
 
