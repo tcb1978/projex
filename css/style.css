@@ -301,6 +301,12 @@ section#services {
 p.section2-h2-box-paragraph {
     font-size: 12px;
     text-align: center;
+    width: 310px;
+}
+
+p.our-team-h2-box-paragraph {
+    font-size: 12px;
+    text-align: center;
     width: 202px;
 }
 
