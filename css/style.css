@@ -719,17 +719,33 @@ input#full_name, input#email, textarea#message {
     position: relative;
     display: inline-block;
     float: left;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 input#full_name, input#email {
     height: 48px;
     border: none;
+    font-size: 34px;
+}
+
+input#full_name, input#email:focus {
+    height: 48px;
+    border: none;
+    font-size: 34px;
+    outline: transparent;
 }
 
 textarea#message {
     height: 138px;
     border: none;
+    font-size: 16px;
+}
+
+textarea#message:focus {
+    height: 138px;
+    border: none;
+    font-size: 16px;
+    outline: transparent;
 }
 
 section#information {
@@ -818,11 +834,7 @@ div#info_button_wrap {
     margin: auto;
 }
 
-footer {
-    height: 100%;
-    width: 100%;
-    background: #ff5959;
-}
+
 
 p.copyright {
     margin: auto;
@@ -848,4 +860,10 @@ p.copyright {
     position: relative;
     height: 25px;
     width: 175px;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    background: #ff5959;
 }
