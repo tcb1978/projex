@@ -115,6 +115,10 @@ table {
 /* close commented backslash hack */
 /*  END UTILITY CLASSES */
 
+body#body_container_wrap {
+    height: 3895px;
+}
+
 body {
     background: #ebebeb;
 }
@@ -590,6 +594,7 @@ div#latest_news_alert {
     bottom: 382px;
     margin: auto;
     width: 368px;
+    height: 388px;
 }
 
 div#latest_news_alert2 {
@@ -599,6 +604,7 @@ div#latest_news_alert2 {
     margin: auto;
     width: 368px;
     padding: 0px 15px 0px 15px;
+    height: 388px;
 }
 
 div#latest_news_alert3 {
@@ -608,6 +614,7 @@ div#latest_news_alert3 {
     margin: auto;
     width: 368px;
     left: 386px;
+    height: 388px;
 }
 
 #latest_alert_image {
@@ -660,7 +667,7 @@ p.alert-new-content-author {
     bottom: 25px;
 }
 
-#comment_icon {
+div#comment_icon {
     background: url('/images/comment-icon.png') no-repeat 0px 0px transparent;
     display: inline-block;
     position: relative;
@@ -670,6 +677,182 @@ p.alert-new-content-author {
     bottom: 42px;
 }
 
+/*   CONTACT US   */
 
+.contact-h2 {
+    font-size: 30px;
+    width: 194px;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 5px;
+}
 
+div#contact_head {
+    width: 380px;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
 
+#contact_header_decoration {
+    background: url('/images/section2-header-decoration.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    height: 10px;
+    width: 373px;
+}
+
+section#contact_us_wrap {
+    height: 450px;
+    bottom: 271px;
+    position: relative;
+    display: block;
+}
+
+div#collect_info_wrap {
+    height: 370px;
+    width: 1140px;
+    margin: auto;
+}
+
+form.contact {
+    height: 300px;
+    width: 570px;
+}
+
+input#full_name, input#email, textarea#message {
+    border-radius: 6px;
+    width: 560px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px
+}
+
+input#full_name, input#email {
+    height: 48px;
+    border: none;
+}
+
+textarea#message {
+    height: 138px;
+    border: none;
+}
+
+section#information {
+    height: 292px;
+    width: 560px;
+    position: relative;
+    display: block;
+    float: right;
+    bottom: 300px;
+    color: #000;
+}
+
+h1.info-h1 {
+    padding: 0px 0px 40px 0px;
+    font-size: 34px;
+}
+
+.info-paragraph {
+    font-size: 12px;   
+    padding-bottom: 20px; 
+}
+
+div#address_icon {
+    height: 17px;
+    width: 12px;
+}
+
+.info-button-view-map, p {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+
+div#phone_icon {
+    height: 17px;
+    width: 12px;
+}
+
+.info-button-view-map, p {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+
+div#address-phone { 
+    height: 86px;
+}
+
+div#address-phone, div#address_icon, div#phone_icon {
+    
+    font-size: 12px;
+}
+
+div#info_button_wrap {
+    height: 28px;
+    width: 280px;
+    position: relative;
+    display: inline-block;
+    bottom: 8px;
+    right: 15px;
+}
+
+.info-button-send-message {
+    border: 1px solid #ff5959;
+    border-radius: 5px;
+    background: #ff5959;
+    color: #fff;
+    width: 116px;
+    height: 28px;
+    margin: 0px 15px;
+}
+
+.info-button-view-map {
+    border: 2px solid #ff5959;
+    color: #ff5959;
+    background: #EBEBEB;
+    border-radius: 5px;
+    margin: 0px 0px 0px 15px;
+    width: 116px;
+    height: 28px;
+    float: right;
+    display: inline-flex;
+}
+
+.info-button-view-map, p {
+    margin: auto;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: #ff5959;
+}
+
+p.copyright {
+    margin: auto;
+    width: 543px;
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    left: 92px;
+    top: 45px;
+}
+
+#address_icon {
+    background: url('/images/map-icon.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 175px;
+}
+
+ #phone_icon {
+    background: url('/images/telephone.png') no-repeat 0px 0px transparent;
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 175px;
+}
