@@ -739,6 +739,8 @@ input#full_name, input#email:focus {
     border: none;
     font-size: 34px;
     outline: transparent;
+    padding: 0px 0px 0px 12px;
+    color: #303030;
 }
 
 textarea#message {
